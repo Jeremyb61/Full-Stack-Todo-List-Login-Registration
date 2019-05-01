@@ -9,7 +9,6 @@ const mongoose = require('mongoose');
 const path = require('path');
 const credentials = require('../src/modules/credentials.js');
 // ----- Session Config
-SESS_SECRET = "rgfgfdagfdgkjlkj"
 
 app.set('trust proxy', 1)
 sessConfig = {
